@@ -1,0 +1,14 @@
+{
+  "name": "nsw-traffic-analysis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible analysis of the supplied NSW road traffic counts sample.",
+  "type": "commonjs",
+  "scripts": {
+    "analyze": "node scripts/analyze.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
